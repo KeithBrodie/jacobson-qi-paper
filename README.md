@@ -8,7 +8,9 @@ Jacobson (1995) showed that the Einstein field equations emerge from thermodynam
 
 We propagate this finite-boundary correction through Jacobson's machinery and obtain, in the non-relativistic weak-field limit:
 
-$$m_i(a) = m_g \left[1 - \left(\frac{a_0}{a}\right)^2\right]$$
+```math
+m_i(a) = m_g \left[1 - \left(\frac{a_0}{a}\right)^2\right]
+```
 
 where $a_0 = cH_0 \approx 6.9 \times 10^{-10}$ m/s$^2$ is derived from the geometry of nested horizons with **no free parameters**. This is McCulloch's Quantized Inertia (2007).
 
