@@ -38,23 +38,29 @@ We reproduce the essential steps of Jacobson's argument [1] to establish the fra
 
 Consider any point P in spacetime. An observer undergoing uniform acceleration a in the neighborhood of P perceives a Rindler horizon — a null surface beyond which signals cannot reach the observer — at proper distance
 
+
 ```math
 d_R = \frac{c^2}{a} \qquad \text{(1)}
 ```
+
 
 behind the direction of acceleration. This horizon has thermodynamic properties:
 
 **Temperature.** By the Unruh effect [4], the accelerating observer perceives the vacuum as a thermal bath at temperature
 
+
 ```math
 T_U = \frac{\hbar a}{2\pi c k_B} \qquad \text{(2)}
 ```
 
+
 **Entropy.** By the Bekenstein-Hawking relation [2,3], the entropy associated with a horizon of area A is
+
 
 ```math
 S = \frac{k_B A}{4 \ell_P^2} \qquad \text{(3)}
 ```
+
 
 where $\ell_P = \sqrt{\hbar G/c^3}$ is the Planck length. This relation, originally derived for black holes, extends to all causal horizons [19].
 
@@ -62,15 +68,19 @@ where $\ell_P = \sqrt{\hbar G/c^3}$ is the Planck length. This relation, origina
 
 Jacobson applies the Clausius relation
 
+
 ```math
 \delta Q = T \, dS \qquad \text{(4)}
 ```
 
+
 to infinitesimal patches of the local Rindler horizon. The heat flow δQ is identified with the boost energy flux across the horizon:
+
 
 ```math
 \delta Q = T_{ab} \, k^a \, d\Sigma^b \qquad \text{(5)}
 ```
+
 
 where $T_{ab}$ is the stress-energy tensor, $k^a$ is the approximate Killing vector generating boosts (the local time-translation symmetry for the accelerated observer), and $d\Sigma^b$ is the horizon area element.
 
@@ -78,29 +88,37 @@ where $T_{ab}$ is the stress-energy tensor, $k^a$ is the approximate Killing vec
 
 The change in horizon area is governed by the Raychaudhuri equation for null geodesic congruences. For a pencil of horizon generators with cross-sectional area A:
 
+
 ```math
 \frac{dA}{d\lambda} = -R_{ab} \, k^a k^b \, A \qquad \text{(6)}
 ```
 
+
 where λ is the affine parameter along the generators and $R_{ab}$ is the Ricci tensor. The entropy change is therefore:
+
 
 ```math
 dS = \frac{k_B}{4\ell_P^2} \, dA = -\frac{k_B}{4\ell_P^2} \, R_{ab} \, k^a k^b \, A \, d\lambda \qquad \text{(7)}
 ```
 
+
 ### D. The Einstein Equations Emerge
 
 Substituting Eqs. (2), (5), and (7) into the Clausius relation (4):
+
 
 ```math
 T_{ab} \, k^a \, d\Sigma^b = \frac{\hbar a}{2\pi c k_B} \cdot \left( -\frac{k_B}{4\ell_P^2} \right) R_{ab} \, k^a k^b \, A \, d\lambda \qquad \text{(8)}
 ```
 
+
 The acceleration a, the Killing vector $k^a$, and the geometric factors combine such that, after requiring this relation to hold for all horizon patches and all boost directions at every spacetime point, one obtains:
+
 
 ```math
 R_{ab} - \frac{1}{2} R \, g_{ab} + \Lambda \, g_{ab} = \frac{8\pi G}{c^4} \, T_{ab} \qquad \text{(9)}
 ```
+
 
 These are the Einstein field equations. The cosmological constant Λ appears as an integration constant — the thermodynamic ground-state energy of the vacuum.
 
@@ -128,15 +146,19 @@ In Jacobson's derivation, $\lambda_{\max}$ is implicitly taken to infinity: all 
 
 But the observable universe has a finite size. The Hubble horizon at radius
 
+
 ```math
 R_H = \frac{c}{H_0} \approx 1.3 \times 10^{26} \text{ m} \qquad \text{(10)}
 ```
 
+
 provides a physical outer boundary. Modes with wavelengths exceeding the Hubble diameter
+
 
 ```math
 \Theta = 2R_H = \frac{2c}{H_0} \approx 2.6 \times 10^{26} \text{ m} \qquad \text{(11)}
 ```
+
 
 cannot exist as standing waves within the observable universe. They are not merely unobservable — they do not fit within the causal domain and therefore do not contribute to the local vacuum state.
 
@@ -156,9 +178,11 @@ At low accelerations ($a \rightarrow cH_0$), the Rindler horizon recedes toward 
 
 The transition occurs at the acceleration
 
+
 ```math
 a_0 = cH_0 \approx 6.9 \times 10^{-10} \text{ m/s}^2 \qquad \text{(12)}
 ```
+
 
 derived from the geometry of two nested horizons with no free parameters. We note that this raw geometric scale differs from Milgrom's empirical MOND constant $a_0^{\text{MOND}} \approx 1.2 \times 10^{-10}$ m/s² [22] by a factor of ~5.8. This O(1) discrepancy is expected: the precise numerical prefactor depends on the detailed shape of the Unruh thermal spectrum and the exact mode-counting between the two horizons. The Wien displacement law, the transition from 1+1 to 3+1 dimensional mode-counting, and the specific boundary conditions at the Hubble surface all contribute factors of order unity. What is robust is the *scale*: a₀ ~ cH₀, derived from geometry alone. Resolving the precise prefactor requires the full mode calculation discussed in Section VI.
 
@@ -170,17 +194,21 @@ The fraction of available modes at acceleration a is determined by the ratio of 
 
 The relevant dimensionless ratio is
 
+
 ```math
 \epsilon(a) = \frac{\lambda_R}{\Theta} = \frac{2c^2}{a\Theta} = \frac{cH_0}{a} = \frac{a_0}{a} \qquad \text{(13)}
 ```
+
 
 At high accelerations, $\epsilon \ll 1$ and all modes contribute. At $a = a_0$, $\epsilon = 1$ and a significant fraction of the long-wavelength spectrum is excluded.
 
 The modified entropy is:
 
+
 ```math
 S'(a) = \frac{k_B A}{4\ell_P^2} \cdot \left[1 - \epsilon^2\right] = \frac{k_B A}{4\ell_P^2} \cdot \left[1 - \left(\frac{2c^2}{a\Theta}\right)^2\right] \qquad \text{(14)}
 ```
+
 
 The quadratic form arises because the entropy of a field in a cavity scales with the number of available mode *cells* in phase space. For a Casimir-like geometry — two boundaries separated by distances $d_R$ and $\Theta$ — the excluded mode energy scales as $(d_R/\Theta)^2$ [21], mirroring the well-known Casimir energy scaling between conducting plates. This specific functional form is also consistent with McCulloch's derivation from information-theoretic arguments [7,9].
 
@@ -190,15 +218,19 @@ The quadratic form arises because the entropy of a field in a cavity scales with
 
 We now repeat Jacobson's derivation with the modified entropy (14). The Clausius relation becomes:
 
+
 ```math
 \delta Q = T_U \, dS' \qquad \text{(15)}
 ```
 
+
 Expanding:
+
 
 ```math
 \delta Q = \frac{\hbar a}{2\pi c k_B} \cdot \frac{k_B}{4\ell_P^2} \cdot \left[1 - \left(\frac{a_0}{a}\right)^2\right] \cdot dA \qquad \text{(16)}
 ```
+
 
 The correction factor $f(a) = [1 - (a_0/a)^2]$ is a scalar function of the local acceleration magnitude. In Jacobson's original derivation, Eq. (8) must hold for all boost directions at every spacetime point; requiring this for the modified relation introduces $f(a)$ as a multiplicative correction.
 
@@ -210,15 +242,19 @@ In the weak-field, non-relativistic limit, the Einstein equations reduce to the 
 
 With our modification, the relationship between the stress-energy source and the resulting geometry is altered by the factor $f(a)$. In the Newtonian limit, this manifests as a modification to the inertial response: the effective force law becomes
 
+
 ```math
 F = m_g \cdot a \cdot f(a) = m_g \cdot a \cdot \left[1 - \left(\frac{a_0}{a}\right)^2\right] \qquad \text{(17)}
 ```
 
+
 We can equivalently express this as a modified inertial mass:
+
 
 ```math
 \boxed{m_i(a) = m_g \left[1 - \left(\frac{a_0}{a}\right)^2\right]} \qquad \text{(18)}
 ```
+
 
 where $a_0 = cH_0$.
 
@@ -236,15 +272,19 @@ This is McCulloch's Quantized Inertia [5–9]. Inertial mass is no longer identi
 
 When $a \gg cH_0$:
 
+
 ```math
 \left(\frac{a_0}{a}\right)^2 \ll 1 \implies m_i \to m_g \qquad \text{(19)}
 ```
 
+
 Standard Newtonian inertia is recovered. Jacobson's full Einstein equations hold without correction. This regime covers all laboratory physics and solar system dynamics. For Earth's orbital acceleration ($a \approx 6 \times 10^{-3}$ m/s²):
+
 
 ```math
 \left(\frac{a_0}{a}\right)^2 \approx \left(\frac{7 \times 10^{-10}}{6 \times 10^{-3}}\right)^2 \sim 10^{-14} \qquad \text{(20)}
 ```
+
 
 This is far below current precision tests of the equivalence principle (~10⁻¹⁵ for Eötvös-type experiments), ensuring no conflict with solar system ephemerides, lunar laser ranging, or the Cassini spacecraft constraint on post-Newtonian parameters.
 
@@ -252,9 +292,11 @@ This is far below current precision tests of the equivalence principle (~10⁻¹
 
 As $a \to a_0$:
 
+
 ```math
 m_i \to 0 \qquad \text{(21)}
 ```
+
 
 Inertia vanishes. The object's Rindler horizon has expanded to the Hubble radius, and the Unruh radiation spectrum is fully truncated by the cosmic boundary. There is no radiation pressure asymmetry to resist acceleration, and hence no inertia.
 
@@ -264,15 +306,19 @@ For $a < a_0$, the formula (18) as written gives $m_i < 0$, which is unphysical.
 
 Stars in the outer regions of spiral galaxies orbit with accelerations $a \sim 10^{-10}$ m/s², comparable to $a_0$. In this regime, the rotation velocity of a star of gravitational mass $m_g$ at radius $r$ from a galaxy of mass $M$ satisfies:
 
+
 ```math
 \frac{m_i v^2}{r} = \frac{G M m_g}{r^2} \qquad \text{(22)}
 ```
 
+
 Substituting $m_i = m_g f(a)$ with $a = v^2/r$ and solving in the deep low-acceleration regime (where the system self-regulates at $a \sim a_0$) yields the asymptotic rotation velocity:
+
 
 ```math
 v^4 = GMa_0 = GMcH_0 \implies v = (GMcH_0)^{1/4} \qquad \text{(23)}
 ```
+
 
 This is exact in the deep low-acceleration limit and is the baryonic Tully-Fisher relation [24]: the asymptotic rotation velocity depends only on the baryonic mass of the galaxy and cosmological constants, with no free parameters. McCulloch [9] has shown that this formula fits the rotation curves of 153 galaxies in the SPARC dataset [25] using only visible baryonic mass.
 
@@ -290,9 +336,11 @@ This is a particularly clean test because: (i) it is local (within the Milky Way
 
 Because $a_0 = cH_0$ and $H_0$ evolves with cosmic time, our framework predicts that the critical acceleration scale is not constant but tracks the expansion history:
 
+
 ```math
 a_0(z) = c \, H(z) \qquad \text{(24)}
 ```
+
 
 At higher redshift, $H(z)$ is larger, so $a_0$ is larger, and galaxy rotation anomalies should appear at higher accelerations and smaller radii than in the local universe. McCulloch [9] has noted that this prediction is consistent with observations of galaxy dynamics out to $z \sim 2.2$, where enhanced rotation anomalies are observed.
 
