@@ -26,7 +26,8 @@ Standard inertia ($m_i = m_g$) is recovered at high accelerations. At low accele
 
 | File | Description |
 |------|-------------|
-| [**Draft-v2.md**](Draft-v2.md) | Full paper with derivation, predictions, and references |
+| [**Paper.md**](Paper.md) | Full paper with derivation, predictions, and references |
+| [Draft-v2.md](Draft-v2.md) | Clean LaTeX-ready source (same content) |
 | [**Figure1.png**](Figure1.png) | Modified inertial mass ratio vs. acceleration |
 | [**figure1.py**](figure1.py) | Reproducible figure source (Python/matplotlib) |
 | [**LiteratureSearch.md**](LiteratureSearch.md) | Comprehensive prior art survey (35+ papers) |
