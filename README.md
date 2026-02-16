@@ -2,7 +2,7 @@
 
 **Authors:** Keith Brodie, with AI assistance (Claude/Anthropic, Grok/xAI)
 
-**Draft v2 — 2026-02-14**
+https://zenodo.org/records/18664801
 
 ---
 
