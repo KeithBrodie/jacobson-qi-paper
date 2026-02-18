@@ -2,6 +2,8 @@
 
 **Author:** Keith Brodie (2026), with AI assistance (Claude/Anthropic, Grok/xAI)
 
+[DOI: 10.5281/zenodo.18664801](https://doi.org/10.5281/zenodo.18664801)
+
 ## Summary
 
 Jacobson (1995) showed that the Einstein equations emerge from horizon thermodynamics, assuming all vacuum entanglement is available to the local Rindler horizon. We show this assumption fails when the Hubble horizon competes for the same entanglement. Entanglement monogamy forces a partition between the two horizons, reducing the effective entropy and modifying the inertial response:
