@@ -2,7 +2,7 @@
 
 **Author:** Keith Brodie (2026), with AI assistance (Claude/Anthropic, Grok/xAI)
 
-[DOI: 10.5281/zenodo.18664801](https://doi.org/10.5281/zenodo.18664801)
+[DOI: 10.5281/zenodo.18664800](https://doi.org/10.5281/zenodo.18664800)
 
 ## Summary
 
